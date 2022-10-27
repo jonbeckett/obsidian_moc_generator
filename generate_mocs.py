@@ -25,7 +25,7 @@ def spider(os_path,f_path):
         for file_name in filter(lambda sfn: Path(sfn).suffix == ".md", subfile_names):
             moc_content += " - [[" + f_subdir_path + "/" + Path(file_name).stem + "|" + Path(file_name).stem + "]]\n"
 
-        moc_filename = os.path.join(os_path,subdir_name + " MoC.md")
+        moc_filename = os.path.join(os_subdir_path,subdir_name + " MoC.md")
         print(moc_filename)
         
         with open(moc_filename, 'w') as f:
