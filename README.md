@@ -2,7 +2,7 @@
 
 This is a python 3 script that automatically creates Map of Content markdown files for a directory tree full of markdown files.
 
-It generates a file called "[folder name] MoC.md" within each folder - named after the folder. Within each MoC file is the title of the folder, and links to each markdown file within the folder.
+It generates a file called "[folder name] MoC.md" alongside each folder - named after the folder. Within each MoC file is the title of the folder, and links to each markdown file within the folder.
 
 The script iterates through every folder below the passed in folder name, generating maps of content as it goes. Beware that if you already have maps of content named after sibling folders, they will get over-written.
 
