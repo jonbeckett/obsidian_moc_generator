@@ -8,7 +8,7 @@ The script iterates through every folder below the passed in folder name, genera
 
 Example:
 
-```python generate_mocs.py c:\my\vault
+```python generate_mocs.py c:\my\vault```
 
 You can of course run the script as many times as needed - it will just over-write the MoCs it has generated each time.
 
